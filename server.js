@@ -1,5 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const morgan = require('morgan');
+// const logger = require('./middleware/logger');
 
 // Route files
 const leeds = require('./routes/leeds');
@@ -8,6 +10,12 @@ const leeds = require('./routes/leeds');
 dotenv.config({ path: './config/config.env' });
 
 const app = express();
+
+// Dev logging middleware
+if(process.env.NODE_ENV === 'development') {
+    app.use(morgan('dev'));
+}
+
  
 // Mount routers
 app.use('/api/v1/leeds', leeds);

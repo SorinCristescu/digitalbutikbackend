@@ -5,7 +5,8 @@
 exports.getLeeds = (req, res, next) => {
     res.status(200).json({
         success: true,
-        message: 'Show all leeds'
+        message: 'Show all leeds',
+        hello: req.hello
     });
 };
 
@@ -47,4 +48,4 @@ exports.deleteLeed = (req, res, next) => {
         success: true,
         message: `Delete leed with id ${req.params.id}`
     });
-};
+}; 
