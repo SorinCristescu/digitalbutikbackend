@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const slugify = require('slugify');
 
 const LeedSchema = new mongoose.Schema({
      clientName: {
@@ -109,5 +110,11 @@ const LeedSchema = new mongoose.Schema({
         default: Date.now
     }
 });
+
+// Create leed slug from the name of project
+LeedSchema.pre('save', function(next) {
+    this.slug = slugify(this.projectName, { lower: true })
+    next();
+})
 
 module.exports = mongoose.model('Leed', LeedSchema);

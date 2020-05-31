@@ -23,26 +23,7 @@
 		"localDesignerNeed": "yes",
 		"availability": "4 hours every week",
 		"experience": "I have never been involved in this process before",
-		"stateOfProject": "I have a basic idea of what I want to build",
-		"websiteFeatures": {
-			"Forms/Lead generation": true,
-			"Image/Video galleries": true,
-			"Event scheduling/Reservation": false,
-			"Social Media Integration": true,
-			"Onsite search": false,
-			"Member login/Profiles": true,
-			"Analytics/Tracking": true,
-			"Live chat": false,
-			"Blog": true,
-			"Home page slider": true,
-			"Google calendar integration": false,
-			"Google map display": true,
-			"3rd party  integration": true,
-			"Search Engine Optimisation": true,
-			"CMS integration": false,
-			"Multi-language": false,
-			"In person training": true
-		}
+		"stateOfProject": "I have a basic idea of what I want to build"
 	},
 	{
 		"_id": "5d713a66ec8f2b88b8f830b8",
@@ -68,26 +49,7 @@
 		"localDesignerNeed": "yes",
 		"availability": "4 hours every week",
 		"experience": "I have never been involved in this process before",
-		"stateOfProject": "I have a basic idea of what I want to build",
-		"websiteFeatures": {
-			"Forms/Lead generation": true,
-			"Image/Video galleries": true,
-			"Event scheduling/Reservation": false,
-			"Social Media Integration": true,
-			"Onsite search": false,
-			"Member login/Profiles": true,
-			"Analytics/Tracking": true,
-			"Live chat": false,
-			"Blog": true,
-			"Home page slider": true,
-			"Google calendar integration": false,
-			"Google map display": true,
-			"3rd party  integration": true,
-			"Search Engine Optimisation": true,
-			"CMS integration": false,
-			"Multi-language": false,
-			"In person training": true
-		}
+		"stateOfProject": "I have a basic idea of what I want to build"
 	},
 	{
 		"_id": "5d725a037b292f5f8ceff787",
@@ -113,26 +75,7 @@
 		"localDesignerNeed": "yes",
 		"availability": "4 hours every week",
 		"experience": "I have never been involved in this process before",
-		"stateOfProject": "I have a basic idea of what I want to build",
-		"websiteFeatures": {
-			"Forms/Lead generation": true,
-			"Image/Video galleries": true,
-			"Event scheduling/Reservation": false,
-			"Social Media Integration": true,
-			"Onsite search": false,
-			"Member login/Profiles": true,
-			"Analytics/Tracking": true,
-			"Live chat": false,
-			"Blog": true,
-			"Home page slider": true,
-			"Google calendar integration": false,
-			"Google map display": true,
-			"3rd party  integration": true,
-			"Search Engine Optimisation": true,
-			"CMS integration": false,
-			"Multi-language": false,
-			"In person training": true
-		}
+		"stateOfProject": "I have a basic idea of what I want to build"
 	},
 	{
 		"_id": "5d725a1b7b292f5f8ceff788",
@@ -158,25 +101,6 @@
 		"localDesignerNeed": "yes",
 		"availability": "4 hours every week",
 		"experience": "I have never been involved in this process before",
-		"stateOfProject": "I have a basic idea of what I want to build",
-		"websiteFeatures": {
-			"Forms/Lead generation": true,
-			"Image/Video galleries": true,
-			"Event scheduling/Reservation": false,
-			"Social Media Integration": true,
-			"Onsite search": false,
-			"Member login/Profiles": true,
-			"Analytics/Tracking": true,
-			"Live chat": false,
-			"Blog": true,
-			"Home page slider": true,
-			"Google calendar integration": false,
-			"Google map display": true,
-			"3rd party  integration": true,
-			"Search Engine Optimisation": true,
-			"CMS integration": false,
-			"Multi-language": false,
-			"In person training": true
-		}
+		"stateOfProject": "I have a basic idea of what I want to build"
 	}
 ]
