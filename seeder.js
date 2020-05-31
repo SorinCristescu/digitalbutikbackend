@@ -9,7 +9,7 @@ dotenv.config({ path: './config/config.env' });
 // Load models
 const Leed = require('./models/leed');
 
-// Connect to Db
+// Connect to DB
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -18,32 +18,37 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 // Read JSON files
-const leeds = JSON.parse(fs.readFileSync(`${__dirname}/data/leeds.json)`, 'utf-8'));
+const leeds = JSON.parse(fs.readFileSync(`${__dirname}/data/leeds.json`, 'utf-8'));
 
-// Import data into DB
+// Import into DB
 const importData = async () => {
     try {
         await Leed.create(leeds);
-        console.log('Data Imported...'.green.inverse);
+
+        console.log('Data imported...'.green.inverse);
         process.exit();
     } catch (err) {
-        console.error(err); 
+        console.error(err);
     }
 }
 
-// Delete data from DB
+// Delete data
 const deleteData = async () => {
     try {
         await Leed.deleteMany();
-        console.log('Data Destruyed...'.red.inverse);
+
+        console.log('Data destroyed...'.red.inverse);
         process.exit();
     } catch (err) {
-        console.error(err); 
+        console.error(err);
     }
 }
 
 if(process.argv[2] === '-i') {
     importData();
-} else if (process.argv[2] === '-d') {
+} else if(process.argv[2] === '-d') {
     deleteData();
 }
+
+// Run in terminal node seeder -i to import data
+// Run in terminal node seeder -d to delete data
